@@ -22,10 +22,12 @@ body {
 
 .error {
   border-color: red;
-  font-size: 330px; }
+  font-size: 30px; }
 
 .warning {
   border-color: yellow;
-  font-size: 40px; }
+  font-size: 160px;
+  text-align: center;
+  font-family: Helvetica, sans-serif; }
 
 /*# sourceMappingURL=test.css.map */
