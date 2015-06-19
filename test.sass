@@ -1,0 +1,46 @@
+$font-stack:    Helvetica, sans-serif
+$primary-color: #333
+$background:none
+$test: 40px
+$test2: 30px
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  background: $background
+  
+.body
+  font: 100% $font-stack
+  
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+.box
+  +border-radius(10px)
+  
+.message
+  border: 1px solid #ccc
+  padding: 10px
+  color: #333
+
+.success
+  @extend .message
+  border-color: green
+
+.error
+  @extend .message
+  border-color: red
+  font-size: $test2 
+
+.warning
+  @extend .message
+  border-color: yellow
+  font-size: $test
+  
+
+
+
+  	

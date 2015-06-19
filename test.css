@@ -1,0 +1,31 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background: none; }
+
+.body {
+  font: 100% Helvetica, sans-serif; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.message, .success, .error, .warning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red;
+  font-size: 30px; }
+
+.warning {
+  border-color: yellow;
+  font-size: 40px; }
+
+/*# sourceMappingURL=test.css.map */
